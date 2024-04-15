@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 957.91 212.58">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Degradado_sin_nombre_2-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_4-2);
+      }
+
+      .cls-6, .cls-2, .cls-7, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-10 {
+        font-size: 141.69px;
+        letter-spacing: .05em;
+      }
+
+      .cls-10, .cls-11 {
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-10, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke: url(#Degradado_sin_nombre_2);
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_4);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-11 {
+        fill: #1d4ed8;
+        font-size: 141.69px;
+        letter-spacing: .05em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-2" d="M128.78,126.87h-34.79l-32.85-35.76,32.85-35.76h34.79l-33.01,35.76,33.01,35.76Z"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="76.91" y1="87.97" x2="119.03" y2="87.97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path class="cls-2" d="M121.55,88.74h34.79l32.85,35.76-32.85,35.76h-34.79l33.01-35.76-33.01-35.76Z"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_2-2" data-name="Degradado sin nombre 2" x1="131.31" y1="127.64" x2="173.42" y2="127.64" xlink:href="#Degradado_sin_nombre_2"/>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="61.1" y1="89.87" x2="128.74" y2="89.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4-2" data-name="Degradado sin nombre 4" x1="121.19" y1="123.79" x2="188.83" y2="123.79" xlink:href="#Degradado_sin_nombre_4"/>
+    <clipPath id="clippath-2">
+      <path class="cls-2" d="M128.74,125.63h-34.79l-32.85-35.76,32.85-35.76h34.79l-33.01,35.76,33.01,35.76Z"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <path class="cls-2" d="M121.51,87.5h34.79l32.85,35.76-32.85,35.76h-34.79l33.01-35.76-33.01-35.76Z"/>
+    </clipPath>
+  </defs>
+  <g id="azul">
+    <g>
+      <path class="cls-8" d="M128.78,126.87h-34.79l-32.85-35.76,32.85-35.76h34.79l-33.01,35.76,33.01,35.76Z"/>
+      <path class="cls-8" d="M121.23,89.27h34.79l32.85,35.76-32.85,35.76h-34.79l33.01-35.76-33.01-35.76Z"/>
+      <g class="cls-12">
+        <polyline class="cls-4" points="118.65 42.58 77.57 91.11 113.97 133.36"/>
+      </g>
+      <g class="cls-9">
+        <polyline class="cls-1" points="131.69 173.03 172.76 124.5 136.37 82.25"/>
+      </g>
+    </g>
+    <text class="cls-10" transform="translate(249.56 160.16)"><tspan x="0" y="0">AMRtech</tspan></text>
+    <rect class="cls-8" x="23.44" y="6.89" width="198.31" height="198.31" rx="11.47" ry="11.47"/>
+    <g>
+      <path class="cls-7" d="M128.74,125.63h-34.79l-32.85-35.76,32.85-35.76h34.79l-33.01,35.76,33.01,35.76Z"/>
+      <path class="cls-6" d="M121.19,88.03h34.79l32.85,35.76-32.85,35.76h-34.79l33.01-35.76-33.01-35.76Z"/>
+      <g class="cls-5">
+        <polyline class="cls-3" points="118.6 41.34 77.53 89.87 113.92 132.12"/>
+      </g>
+      <g class="cls-13">
+        <polyline class="cls-3" points="131.64 171.79 172.72 123.26 136.32 81.01"/>
+      </g>
+    </g>
+  </g>
+  <g id="azul-2" data-name="azul">
+    <text class="cls-11" transform="translate(249.6 -67.49)"><tspan x="0" y="0">AMRtech</tspan></text>
+  </g>
+</svg>

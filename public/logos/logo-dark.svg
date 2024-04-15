@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 957.91 212.58">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Degradado_sin_nombre_2-2);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_3);
+      }
+
+      .cls-4, .cls-2, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        stroke: url(#Degradado_sin_nombre_2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        fill: #1d4ed8;
+        font-family: Poppins-Bold, Poppins;
+        font-size: 141.69px;
+        font-weight: 700;
+        letter-spacing: .05em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="-23.28" y1="-123.93" x2="315.38" y2="412.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <path class="cls-2" d="M128.78,126.87h-34.79l-32.85-35.76,32.85-35.76h34.79l-33.01,35.76,33.01,35.76Z"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="76.91" y1="87.97" x2="119.03" y2="87.97" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path class="cls-2" d="M121.55,88.74h34.79l32.85,35.76-32.85,35.76h-34.79l33.01-35.76-33.01-35.76Z"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_2-2" data-name="Degradado sin nombre 2" x1="131.31" y1="127.64" x2="173.42" y2="127.64" xlink:href="#Degradado_sin_nombre_2"/>
+  </defs>
+  <g id="azul-2" data-name="azul">
+    <text class="cls-8" transform="translate(249.6 160.25)"><tspan x="0" y="0">AMRtech</tspan></text>
+    <rect class="cls-4" x="23.48" y="8.12" width="198.31" height="198.31" rx="11.47" ry="11.47"/>
+    <g>
+      <path class="cls-5" d="M128.78,126.87h-34.79l-32.85-35.76,32.85-35.76h34.79l-33.01,35.76,33.01,35.76Z"/>
+      <path class="cls-5" d="M121.23,89.27h34.79l32.85,35.76-32.85,35.76h-34.79l33.01-35.76-33.01-35.76Z"/>
+      <g class="cls-7">
+        <polyline class="cls-3" points="118.65 42.58 77.57 91.11 113.97 133.36"/>
+      </g>
+      <g class="cls-6">
+        <polyline class="cls-1" points="131.69 173.03 172.76 124.5 136.37 82.25"/>
+      </g>
+    </g>
+  </g>
+</svg>
