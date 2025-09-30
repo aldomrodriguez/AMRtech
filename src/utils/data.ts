@@ -37,4 +37,7 @@ const services = [
     },
 ];
 
-export { services };
+// Endpoint del formulario (Formspree). Reemplazar variable de entorno o fallback.
+const FORM_ENDPOINT = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT || 'https://formspree.io/f/manpooop';
+
+export { services, FORM_ENDPOINT };

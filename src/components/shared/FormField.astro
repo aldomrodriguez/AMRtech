@@ -1,0 +1,70 @@
+---
+/**
+ * Reusable form field component.
+ * Props:
+ *  - id: string
+ *  - label: string
+ *  - as: 'input' | 'textarea'
+ *  - type?: string (when as=input)
+ *  - required?: boolean
+ *  - placeholder?: string
+ *  - rows?: number (when as=textarea)
+ *  - error?: string
+ *  - value?: string
+ *  - name?: string (defaults to id)
+ *  - className?: string (extra wrapper classes)
+ */
+export interface Props {
+  id: string;
+  label: string;
+  as?: 'input' | 'textarea';
+  type?: string;
+  required?: boolean;
+  placeholder?: string;
+  rows?: number;
+  error?: string;
+  value?: string;
+  name?: string;
+  className?: string;
+}
+
+const {
+  id,
+  label,
+  as = 'input',
+  type = 'text',
+  required = false,
+  placeholder = '',
+  rows = 4,
+  error,
+  value,
+  name,
+  className = ''
+} = Astro.props as Props;
+
+const baseClasses = `px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 bg-white/80 dark:bg-gray-800/60 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary text-sm md:text-base transition-colors w-full text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400`;
+---
+<div class={`flex flex-col ${className}`}>
+  <label for={id} class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">{label}{required && <span class="text-primary">*</span>}</label>
+  {as === 'textarea' ? (
+    <textarea
+      id={id}
+      name={name || id}
+      rows={rows}
+      placeholder={placeholder}
+      class={baseClasses + ' resize-none'}
+      {...(required ? { required: true } : {})}
+      >{value}</textarea>
+  ) : (
+    <input
+      id={id}
+      name={name || id}
+  type={type as any}
+      placeholder={placeholder}
+      class={baseClasses}
+      {...(required ? { required: true } : {})}
+      value={value}
+    />
+  )}
+  <div data-error-for={id} class={`min-h-[1.25rem] pt-1 text-xs font-medium ${error ? 'text-red-600' : 'text-transparent'} transition-colors`}>{error || '.'}</div>
+</div>
